@@ -25,7 +25,7 @@
 @property (nonatomic, assign) NSInteger index;
 
 /* playItem */
-@property (nonatomic, weak) AVPlayerItem *currentItem;
+@property (nonatomic, strong) AVPlayerItem *currentItem;
 @property (weak, nonatomic) IBOutlet UISlider *progressSlider;
 
 
