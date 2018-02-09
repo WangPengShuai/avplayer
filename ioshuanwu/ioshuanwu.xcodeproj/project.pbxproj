@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88752C8E202DA22A00A09551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88752C8D202DA22A00A09551 /* AppDelegate.m */; };
 		D106A4931C32779600FF6707 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D106A4691C32779600FF6707 /* MJRefreshAutoFooter.m */; };
 		D106A4941C32779600FF6707 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D106A46B1C32779600FF6707 /* MJRefreshBackFooter.m */; };
 		D106A4951C32779600FF6707 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D106A46D1C32779600FF6707 /* MJRefreshComponent.m */; };
@@ -62,7 +63,6 @@
 		D181E48B1C31216B007B6709 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = D181E48A1C31216B007B6709 /* time.png */; };
 		D181E4BE1C314CA2007B6709 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D181E4BD1C314CA2007B6709 /* VideoViewController.m */; };
 		D1C37C531C2FB9FD00842069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C37C521C2FB9FD00842069 /* main.m */; };
-		D1C37C561C2FB9FD00842069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C37C551C2FB9FD00842069 /* AppDelegate.m */; };
 		D1C37C5E1C2FB9FD00842069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C37C5D1C2FB9FD00842069 /* Assets.xcassets */; };
 		D1C37C611C2FB9FD00842069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C37C5F1C2FB9FD00842069 /* LaunchScreen.storyboard */; };
 		D1C37C6C1C2FB9FD00842069 /* ioshuanwuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C37C6B1C2FB9FD00842069 /* ioshuanwuTests.m */; };
@@ -89,6 +89,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88752C8C202DA22A00A09551 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88752C8D202DA22A00A09551 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D106A4681C32779600FF6707 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		D106A4691C32779600FF6707 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		D106A46A1C32779600FF6707 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -192,8 +194,6 @@
 		D181E4BD1C314CA2007B6709 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		D1C37C4E1C2FB9FD00842069 /* ioshuanwu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ioshuanwu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C37C521C2FB9FD00842069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1C37C541C2FB9FD00842069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
-		D1C37C551C2FB9FD00842069 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		D1C37C5D1C2FB9FD00842069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1C37C601C2FB9FD00842069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1C37C621C2FB9FD00842069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -239,6 +239,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88752C8B202DA22A00A09551 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				88752C8C202DA22A00A09551 /* AppDelegate.h */,
+				88752C8D202DA22A00A09551 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		88752C8F202DA26F00A09551 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		88752C90202DA30100A09551 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		88752C92202DA31200A09551 /* Gloabl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gloabl;
+			sourceTree = "<group>";
+		};
+		88752C93202DA32800A09551 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		D106A4661C32779600FF6707 /* MJRefresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -487,28 +524,19 @@
 		D1C37C841C2FBB8100842069 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				D1C37C851C2FBB8100842069 /* Application */,
+				88752C8B202DA22A00A09551 /* AppDelegate */,
 				D1C37C861C2FBB8100842069 /* BaseClass */,
 				D1C37C871C2FBB8100842069 /* CodeClass */,
-				D1C37C881C2FBB8100842069 /* DataBase */,
 				D1C37C891C2FBB8100842069 /* EnNetWork */,
-				D1C37C8A1C2FBB8100842069 /* Framework */,
-				D1C37C8B1C2FBB8100842069 /* Global */,
-				D1C37C8C1C2FBB8100842069 /* Helper */,
+				88752C8F202DA26F00A09551 /* DataBase */,
 				D1C37C8D1C2FBB8100842069 /* Macro */,
+				88752C90202DA30100A09551 /* Frame */,
+				88752C93202DA32800A09551 /* Helper */,
+				88752C92202DA31200A09551 /* Gloabl */,
 				D1C37C921C2FBB8100842069 /* Resources */,
 				D1C37C931C2FBB8100842069 /* TheThird */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		D1C37C851C2FBB8100842069 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				D1C37C541C2FB9FD00842069 /* AppDelegate.h */,
-				D1C37C551C2FB9FD00842069 /* AppDelegate.m */,
-			);
-			path = Application;
 			sourceTree = "<group>";
 		};
 		D1C37C861C2FBB8100842069 /* BaseClass */ = {
@@ -528,13 +556,6 @@
 			path = CodeClass;
 			sourceTree = "<group>";
 		};
-		D1C37C881C2FBB8100842069 /* DataBase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataBase;
-			sourceTree = "<group>";
-		};
 		D1C37C891C2FBB8100842069 /* EnNetWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,27 +563,6 @@
 				D181E42A1C30E002007B6709 /* GetVideoDataTools.m */,
 			);
 			path = EnNetWork;
-			sourceTree = "<group>";
-		};
-		D1C37C8A1C2FBB8100842069 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		D1C37C8B1C2FBB8100842069 /* Global */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Global;
-			sourceTree = "<group>";
-		};
-		D1C37C8C1C2FBB8100842069 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 		D1C37C8D1C2FBB8100842069 /* Macro */ = {
@@ -799,6 +799,7 @@
 				D181E4231C30D734007B6709 /* HeardButton.m in Sources */,
 				D106A4A01C32779600FF6707 /* MJRefreshStateHeader.m in Sources */,
 				D181E4281C30DF57007B6709 /* VideoSid.m in Sources */,
+				88752C8E202DA22A00A09551 /* AppDelegate.m in Sources */,
 				D106A49C1C32779600FF6707 /* MJRefreshBackNormalFooter.m in Sources */,
 				D181E44F1C30E8D7007B6709 /* SDWebImageDownloaderOperation.m in Sources */,
 				D181E4BE1C314CA2007B6709 /* VideoViewController.m in Sources */,
@@ -808,7 +809,6 @@
 				D181E4561C30E8D7007B6709 /* UIImageView+WebCache.m in Sources */,
 				D181E44A1C30E8D7007B6709 /* NSData+ImageContentType.m in Sources */,
 				D181E44E1C30E8D7007B6709 /* SDWebImageDownloader.m in Sources */,
-				D1C37C561C2FB9FD00842069 /* AppDelegate.m in Sources */,
 				D1C37C9E1C2FC01D00842069 /* HeadView.m in Sources */,
 				D106A49F1C32779600FF6707 /* MJRefreshNormalHeader.m in Sources */,
 				D106A4991C32779600FF6707 /* MJRefreshAutoNormalFooter.m in Sources */,
